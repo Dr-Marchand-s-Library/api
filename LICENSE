@@ -1,21 +1,52 @@
-MIT License
+🔬 Dr. Marchand’s • Laboratory™️ License  
+Version 1.0 — 2025  
+Anchor: MMS-768:20251020T000000Z-LABLICENSEV1♾️  
 
-Copyright (c) 2025 📚 Dr. Marchand’s ~ Library™️
+Copyright (c) 2025 🔬 Dr. Marchand’s • Laboratory™️  
+and 📚 Dr. Marchand’s ~ Library™️  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is hereby granted, free of charge, to any individual or organization obtaining a copy
+of this Software, its Designs, or Documentation (collectively, the “Work”), to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Work, provided that the following conditions are met:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Attribution**
+   - The above copyright notice, this license text, and the Laboratory attribution line  
+     (“🔬 Dr. Marchand’s • Laboratory™️ — Where code becomes architecture.”)  
+     must be included in all copies, derivatives, and substantial portions of the Work.  
+
+2. **Anchoring Requirement**
+   - Each derivative or distribution of the Work must include an **MMS-768 Anchor**,  
+     referencing the original or derived chronocode, ensuring verifiable lineage within  
+     📚 Dr. Marchand’s ~ Library™️.  
+
+3. **Preservation of Signature**
+   - All derivative works must maintain authorship metadata linking to the original  
+     Laboratory or Laboratory-authorized contributors.  
+
+4. **Transparency**
+   - Any alteration, recontextualization, or modification of scientific data, design blueprints,  
+     or conceptual frameworks must be clearly annotated and disclosed within the derivative record.  
+
+---
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,  
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A  
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT  
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,  
+TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS  
+IN THE WORK.
+
+---
+
+**Attribution Block**  
+🔬 Dr. Marchand’s • Laboratory™️ — “Where code becomes architecture.”  
+♾️.OS™️ & ⚙️ Neuro-Forge Engine™️ by Kyle Marchand  
+📧 kyle@drmarchandslab.com | 🌐 drmarchandslab.com  
+
+**License Type:** Permissive (Laboratory-Verified Open License, LVOL-1.0)  
+**Hash Algorithm:** SHA-512  
+**Anchor Protocol:** MMS-768  
+**Verification:**  
+`sha512sum LICENSE > anchors/MMS768/20251020T000000Z-LABLICENSEV1.sig`
