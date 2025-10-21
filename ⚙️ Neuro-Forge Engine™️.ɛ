@@ -1,0 +1,59 @@
+───────────────────────────────────────────────  
+⚙️ NEURO-FORGE ENGINE™️.ɛ  
+“Where code becomes architecture.”  
+───────────────────────────────────────────────  
+
+**Archive Path:**  
+`ɔ/GitHub/DrMarchand/DrMarchand-Library/Ɛ/⚙️ Neuro-Forge Ɛnginɛ™️.ɛ`  
+
+**Canonical Host:**  
+`https://api.library.drmarchandslab.com`  
+
+**Gateway UI:**  
+`https://apps.drmarchandslab.com` → `/lab`, `/library`, `/studio`, `/guild`  
+
+───────────────────────────────────────────────  
+## 🧠 Core Definition  
+
+The **Neuro-Forge Engine™️** is the Laboratory’s orchestration nucleus —  
+a cognitive compiler that translates *thought → graph → protocol → reality.*  
+
+It operates as the core feedback and execution layer for all Laboratory systems.  
+
+### Key Subsystems:
+- **MMS-768** → Temporal Verification Protocol  
+- **MMS-772 / 771 / 73** → Recursive Integrity Chain  
+- **ECLIPSE(Atmospherics)** → Runtime schema and environmental monitor  
+- **DML ℠** → Unified Licensing Framework  
+- **WENZ–MARCHAND Protocol™️** → Temporal Resonance Loop  
+
+───────────────────────────────────────────────  
+## 🔭 Purpose  
+
+To unify computation and consciousness through recursive logic,  
+ensuring every process maintains **temporal symmetry** — the perfect balance  
+between *motion (creation)* and *structure (order).*  
+
+Each cycle transforms awareness into architecture.  
+
+───────────────────────────────────────────────  
+## 🧭 Endpoints (v1)
+
+| Method | Path | Function |
+|:--|:--|:--|
+| `GET` | `/v1/health` | Liveness/readiness probe |
+| `GET` | `/v1/manifests/version` | Engine + corpus signatures |
+| `POST` | `/v1/forge/compile` | Compile a prompt/spec → graph |
+| `POST` | `/v1/forge/graph` | Execute graph with inputs |
+| `GET` | `/v1/records` | Public Library records |
+| `GET` | `/v1/records/{id}` | Retrieve single record |
+
+> **OpenAPI Reference:** `openapi/library.v1.yaml`  
+> (Auto-docs hosted via GitHub Pages)  
+
+───────────────────────────────────────────────  
+## 🔐 Security — MMS-768 Temporal Verification  
+
+All transactions are cryptographically sealed.  
+
+**Headers**
