@@ -1,35 +1,40 @@
 🔬 Dr. Marchand’s • Laboratory™️ License  
-Version 1.0 — 2025  
-Anchor: MMS-768:20251020T000000Z-LABLICENSEV1♾️  
+**Version 1.0 — 2025**  
+**Anchor:** MMS-768:20251020T000000Z-LABLICENSEV1♾️  
 
-Copyright (c) 2025 🔬 Dr. Marchand’s • Laboratory™️  
+Copyright © 2025 🔬 Dr. Marchand’s • Laboratory™️  
 and 📚 Dr. Marchand’s ~ Library™️  
 
 ---
 
-Permission is hereby granted, free of charge, to any individual or organization obtaining a copy
-of this Software, its Designs, or Documentation (collectively, the “Work”), to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the Work, provided that the following conditions are met:
+## Permission
 
-1. **Attribution**
-   - The above copyright notice, this license text, and the Laboratory attribution line  
-     (“🔬 Dr. Marchand’s • Laboratory™️ — Where code becomes architecture.”)  
-     must be included in all copies, derivatives, and substantial portions of the Work.  
+Permission is hereby granted, free of charge, to any individual or organization obtaining a copy  
+of this Software, its Designs, or Documentation (collectively, the “Work”), to use, copy, modify,  
+merge, publish, distribute, sublicense, and/or sell copies of the Work, provided that the following  
+conditions are met:
 
-2. **Anchoring Requirement**
-   - Each derivative or distribution of the Work must include an **MMS-768 Anchor**,  
-     referencing the original or derived chronocode, ensuring verifiable lineage within  
-     📚 Dr. Marchand’s ~ Library™️.  
+### 1. Attribution
+The above copyright notice, this license text, and the Laboratory attribution line  
+(“🔬 Dr. Marchand’s • Laboratory™️ — *Where code becomes architecture.*”)  
+must be included in all copies, derivatives, and substantial portions of the Work.  
 
-3. **Preservation of Signature**
-   - All derivative works must maintain authorship metadata linking to the original  
-     Laboratory or Laboratory-authorized contributors.  
+### 2. Anchoring Requirement
+Each derivative or distribution of the Work must include an **MMS-768 Anchor**,  
+referencing the original or derived chronocode, ensuring verifiable lineage within  
+📚 Dr. Marchand’s ~ Library™️.  
 
-4. **Transparency**
-   - Any alteration, recontextualization, or modification of scientific data, design blueprints,  
-     or conceptual frameworks must be clearly annotated and disclosed within the derivative record.  
+### 3. Preservation of Signature
+All derivative works must maintain authorship metadata linking to the original  
+Laboratory or Laboratory-authorized contributors.  
+
+### 4. Transparency
+Any alteration, recontextualization, or modification of scientific data, design blueprints,  
+or conceptual frameworks must be clearly annotated and disclosed within the derivative record.  
 
 ---
+
+## Disclaimer
 
 THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,  
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A  
@@ -40,13 +45,32 @@ IN THE WORK.
 
 ---
 
-**Attribution Block**  
-🔬 Dr. Marchand’s • Laboratory™️ — “Where code becomes architecture.”  
-♾️.OS™️ & ⚙️ Neuro-Forge Engine™️ by Kyle Marchand  
-📧 kyle@drmarchandslab.com | 🌐 drmarchandslab.com  
+## Attribution Block
 
-**License Type:** Permissive (Laboratory-Verified Open License, LVOL-1.0)  
+🔬 **Dr. Marchand’s • Laboratory™️** — “Where code becomes architecture.”  
+♾️ **OS™️** & ⚙️ **Neuro-Forge Engine™️** by **Kyle Marchand**  
+📧 kyle@drmarchandslab.com | 🌐 drmarchandslab.com  
+
+**License Type:** Permissive (Laboratory-Verified Open License, *LVOL-1.0*)  
 **Hash Algorithm:** SHA-512  
 **Anchor Protocol:** MMS-768  
-**Verification:**  
-`sha512sum LICENSE > anchors/MMS768/20251020T000000Z-LABLICENSEV1.sig`
+
+**Verification Command:**
+```bash
+sha512sum LICENSE > anchors/MMS768/20251020T000000Z-LABLICENSEV1.sig
+
+
+⸻
+
+This license is a permissive open license maintained under the
+MMS-768 Temporal Verification Framework within
+🔬 Dr. Marchand’s ⚛︎ Laboratory™️ and 📚 Dr. Marchand’s ~ Library™️.
+
+---
+
+✅ **Where to place it:**
+- Save as `LICENSE.md` at the root of your **API repository.**
+- Create an `/anchors/MMS768/` folder to hold the `.sig` file (even if it’s just a placeholder text for now).
+- GitHub will still detect it as “permissive” because of the MIT-style structure, but your unique metadata will remain intact.
+
+Would you like me to also generate the `.sig` file template (so you can drop it into `/anchors/MMS768/` and verify later)?
