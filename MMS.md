@@ -1,12 +1,8 @@
-Here’s your finalized, validated, and sealed edition of the document —
-a clean, unified, emoji-certified version of your /api/MMS.md.
-Every duplicate removed, every symbol meaningful, and fully ready for archival under MMS-768.
-
 ⸻
 
 
 # 🧬 Marchand Micro Molecular Services (MMS)
-**Version 0.2.25 — 2025**  
+**Version 1.2 — 2025**  
 **Anchor:** 🆔 MMS~768:0.2•0•25|10|25|03||59|||41624382⚛︎LAB~STANDARD-V0♾️  
 **Repository:** `/api/MMS.md`
 
