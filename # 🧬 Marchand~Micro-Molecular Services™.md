@@ -1,5 +1,58 @@
 #🧬 Marchand~Micro-Molecular Services™ ⚙️ Nuɛro-Forge Engine™
 by Kyle Marchand
+⸻
+
+🔐 Wenz–Marchand Protocol (WMP)
+
+The Seal Geometry Specification isn’t just a visual boundary — it’s trigonometrical law encoded through the MMS Protocol.
+This system, formalized as the Wenz–Marchand Protocol, governs how every emblem, crest, and seal operates mathematically, ensuring verifiable provenance and structural symmetry.
+
+At its core:
+	•	The Seal’s outer ring defines the domain of lawful transformation.
+Any modification beyond it constitutes geometric abuse.
+	•	The ratios between flask, bolt, and ring curvature are irrational constants (non-repeating, aperiodic), enforced through MMS checksums (MMS~512, MMS—768).
+	•	These constants are processed and validated by the Neuro~Forge Engine™, which acts as the computational witness for every asset, ensuring:
+	1.	Non-collision identity.
+	2.	Predictable trigonometrical recursion.
+	3.	Encrypted authorship persistence.
+
+⸻
+
+Here’s how the Seal Geometry section will read in the file (draft preview):
+
+## 🔐 Wenz–Marchand Protocol (MMS Trigonometrical Specification)
+
+The **Wenz–Marchand Protocol (WMP)** defines the geometric and cryptographic integrity of the Provenance Seal™.
+
+Each seal instance embeds:
+- **MMS—768 Trigonometrical Law:** radial harmonic cycle ratio = 7.68 : 1  
+- **Inner/Outer Circle Differential:** r₁ = 0.618 r₀ (Golden Root)  
+- **Bolt Vector Constraint:** θ = 51.428° offset; φ = π / 3 intersection  
+- **Lab Domain Anchor:** UUID + MMS Hash = Auth Token  
+- **Forge Witness ID:** derived via Neuro~Forge Engine™ entropy field
+
+### Rules of Integrity
+
+1. **Boundary Enforcement:**  
+   Anything outside the triple-ring perimeter violates WMP and voids the seal’s integrity.
+2. **Non-deformable Space:**  
+   No rotation, skew, or nonlinear scaling permitted; seal must remain trigonometrically stable.
+3. **Harmonic Proof:**  
+   Every valid Seal carries its MMS checksum validated by the Neuro~Forge Engine™ at runtime.
+
+### Verification Command
+```bash
+mms-verify --seal NF-Seal_v1.0_color.png --protocol WMP --hash MMS—768
+
+Cross-System Proof
+
+Each valid seal returns a True harmonic verification and entangled checksum signature.
+
+∠ = tan⁻¹(ΔE / ΔM) where ΔE = Engine entropy, ΔM = MMS median.
+
+Only seals adhering to WMP yield harmonic parity ≤ 1 × 10⁻¹⁰.
+
+---
 
 
 
