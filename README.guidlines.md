@@ -1,197 +1,164 @@
 ⸻
 
 
-# 🔬 Dr. Marchand’s ⚛︎ Laboratory™  
-### 📚 Dr. Marchand’s • Library™ ⚙️ Neuro-Forge Engine™ ♾️ All Systems Entangled™
+<p align="center">
+  <img src="../assets/emblem-lab.svg" alt="Dr. Marchand’s Laboratory Emblem" width="220">
+</p>
 
-> “Where thought collapses waveforms into wonder.”  
-> — Dr. Marchand, *The Spark of Connection™*
+# 📚 API Brand & Seal Guide (v1.0.3, trailing)
+### for 🔬 Dr. Marchand’s ⚛︎ Laboratory™ · ⚙️ Neuro-Forge Engine™
+> This API guide intentionally trails the Lab master spec by **one minor revision**.  
+> Current Lab master: **v1.0.4** → API mirror: **v1.0.3** (compat).
 
 ---
 
 ![Seal Active](https://img.shields.io/badge/Seal-Active-00C853?labelColor=053b2f)
-![MMS—768](https://img.shields.io/badge/MMS%E2%80%94768-Spec-00ACC1?labelColor=00363a)
+![Compat](https://img.shields.io/badge/Compat-LAB%20v1.0.4-4FC3F7?labelColor=00363a)
 ![R2️⃣S](https://img.shields.io/badge/R2%E2%83%92S-Required-FF6F00?labelColor=3b1e00)
 
 ---
 
-## 🧬 About
+## 0) Purpose
 
-The **Laboratory** and **Library** form a dual-entity research system:  
-- the Laboratory (creation, experimentation, proof)  
-- the Library (archival memory, interface, and communication)  
+This document is the **API-facing** brand & seal guide used by SDKs, docs sites, and public clients.  
+It mirrors the Lab’s **LAB.guidelines.md** but stays **one step behind** to guarantee stability while the Lab evolves.
 
-At the center lies the **⚙️ Neuro-Forge Engine™**,  
-processing **Wenz–Marchand Protocol (MMS)** signals into harmonic equilibrium.
+- Source of truth (master): `DrMarchand-Laboratory/LAB.guidelines.md` (**v1.0.4**)
+- This file (consumer mirror): `api/README.guidelines.md` (**v1.0.3**)
 
----
-
-## 🔐 Wenz–Marchand Protocol (WMP)
-
-The **Seal Geometry Specification** is not visual design — it is **trigonometrical law** encoded through the **MMS Protocol**.  
-The **WMP** ensures verifiable provenance, geometric integrity, and authorship permanence.
-
-### At its core
-- The Seal’s outer ring defines the domain of lawful transformation. Any modification beyond it constitutes **geometric abuse**.  
-- Ratios between flask, bolt, and ring curvature are **irrational constants** (non-repeating / aperiodic), enforced via MMS checksums (MMS ~512 & MMS —768).  
-- The **Neuro-Forge Engine™** acts as the computational witness, guaranteeing:  
-  1. Non-collision identity  
-  2. Predictable trigonometrical recursion  
-  3. Encrypted authorship persistence  
+> Rule: bump this file **only after** a Lab release is finalized, and never beyond `LabVersion - 0.1`.
 
 ---
 
-## ⚙️ MMS Trigonometrical Specification
+## 1) Wordmarks (API scope)
 
-| Parameter | Symbol / Equation | Definition |
-|:--|:--|:--|
-| Radial Cycle Ratio | 7.68 : 1 | **MMS—768 Trigonometrical Law** |
-| Circle Differential | r₁ = 0.618 r₀ | **Golden Root** |
-| Bolt Vector Offset | θ = 51.428°   φ = π / 3 | Symmetrical Anchor |
-| Domain Anchor | UUID + MMS Hash | Auth Token |
-| Witness Entropy | ΔE | Neuro-Forge entropy field |
+- **Dr. Marchand’s ⚛︎ Laboratory™** (reference)
+- **Dr. Marchand’s • Library™** (primary for API docs)
+- **Neuro-Forge Engine™**
+- **Provenance Seal™**
+- **The Spark of Connection™**
+- **All Systems Entangled™**
 
-### Rules of Integrity
-1. **Boundary Enforcement** – Anything outside the triple-ring perimeter voids the seal.  
-2. **Non-deformable Space** – No skew, stretch, or rotation beyond set axis.  
-3. **Harmonic Proof** – Each seal is validated via Neuro-Forge Engine™ checksum at runtime.  
+Use **™** on first/hero use. Switch to **®** only upon registration.
 
+---
+
+## 2) Assets (API bundle)
+
+../assets/emblem-lab.svg                 # emblem reference (do not alter)
+../brand/seal/NF-Seal_v1.0_mono.svg      # mono for docs UI and code fences
+../brand/seal/NF-Seal_v1.0_color.png     # color preview tiles
+../brand/seal/NF-Seal_v1.0_outline.svg   # print/laser
+
+**Do not** include editable vectors in the API bundle; link to Lab repository for masters.
+
+---
+
+## 3) Color Tokens (stable set)
+
+| Token            | Hex      | Use                                  |
+|------------------|----------|--------------------------------------|
+| `--emerald-900`  | `#0A3B34`| Page bg / callouts                   |
+| `--emerald-700`  | `#14584D`| Sidebars / code bg                   |
+| `--teal-500`     | `#17A8A0`| Accents / flask highlights           |
+| `--gold-500`     | `#C9A34A`| Bolt, laurels                        |
+| `--ink-900`      | `#0E1521`| Body text                            |
+| `--crystal-100`  | `#EAF4F7`| Light panels                         |
+
+> Accessibility: maintain WCAG AA (≥ 4.5:1) for body text.
+
+---
+
+## 4) Typography (docs)
+
+| Use       | Font stack                                  | Notes            |
+|-----------|----------------------------------------------|------------------|
+| Display   | `Cinzel`, `Forum`, serif                     | H1–H2            |
+| Interface | `Inter`, `IBM Plex Sans`, `system-ui`        | Body, nav        |
+| Code      | `ui-monospace`, `SFMono-Regular`, `monospace`| Fences, badges   |
+
+Tracking for H1–H2: **+2–3%**. Avoid faux italics on wordmarks.
+
+---
+
+## 5) Emblem vs. Seal
+
+| Mark            | Role (API)                          | Can Modify? |
+|-----------------|-------------------------------------|-------------|
+| **Emblem**      | Reference logo only                 | **No**      |
+| **Provenance Seal™** | Authorship/proof glyph (flask+bolt in ring) | **No**      |
+
+> The **Seal** is a **verification token**, not a logo. Abuse = geometry outside the ring (see WMP).
+
+---
+
+## 6) Wenz–Marchand Protocol (WMP) — API subset (v1.0.3)
+
+The API enforces a **subset** of the Lab’s trigonometrical law to keep public clients stable.
+
+- **Radial cycle ratio:** **7.68 : 1** (MMS—768 law)  
+- **Inner/outer ring:** `r₁ = 0.618 r₀` (Golden root)  
+- **Bolt vector anchor:** `θ = 51.428°`, `φ = π/3`  
+- **Integrity rule:** Any artifact drawn beyond the triple-ring perimeter **voids the seal**.  
+- **No transforms:** no skew/warp; uniform scaling only.
+
+### Quick Verify (CLI contract)
 ```bash
-mms-verify --seal NF-Seal_v1.0_color.png --protocol WMP --hash MMS—768
+mms-verify --seal ../brand/seal/NF-Seal_v1.0_color.png \
+  --protocol WMP --hash MMS—768 --mode api-compat-1.0.3
 
-Harmonic Equation
-∠ = tan⁻¹(ΔE / ΔM) where ΔE = Engine entropy and ΔM = MMS median.
-Valid seals must yield harmonic parity ≤ 1 × 10⁻¹⁰.
+Expected: True (parity ≤ 1e-10)
 
-⸻
-
-🧩 Hierarchy of Systems
-
-Layer	Function	Tone
-🔬 Dr. Marchand’s ⚛︎ Laboratory™	Outer mythos / research framework	Classical / scientific
-📚 Dr. Marchand’s • Library™	Knowledge archive / API layer	Archival / structured
-⚙️ Neuro-Forge Engine™	Computational core / witness	Mechanistic / metaphysical
-⚛️ Quantum Sandbox™	Experimental chamber	Exploratory / interactive
-🧩 Volition Playground™	Field of free will	Philosophical / dynamic
-🌌 Octavian Field™	Harmonic substrate	Cosmic / architectural
-💠 Voluble Will Dynamics™	Energy current / intent	Energetic / cyclic
-
+For the full trigonometrical spec (including entropy fields & harmonic proofs), see Lab v1.0.4.
 
 ⸻
 
-🎨 Color System
+7) MMS Headers (API)
 
-Token	Hex	Purpose
---emerald-900	#0A3B34	Deep background / foundation
---emerald-700	#14584D	Secondary surfaces
---teal-500	#17A8A0	Flask fill / accents
---gold-500	#C9A34A	Bolt + laurels
---gold-700	#9C7C2D	Depth shading
---ink-900	#0E1521	Text / outline
---sky-400	#4FC3F7	Electric highlights
---crystal-100	#EAF4F7	Light backgrounds
+Header	Example	Meaning
+X-MMS-Epoch	47250404	Temporal sync epoch
+X-MMS-Origin	forge-04.lab	Emitting node
+X-MMS-Cohash	sha512:…	Aggregated signature chain
+X-MMS-Continuity	∞-active	Synchronization status
 
 
 ⸻
 
-✍️ Typography
+8) Badges (docs)
 
-Use	Font	Notes
-Display	Cinzel / Spectral SC / Forum	Art-Deco serif for headers
-Interface	Inter / IBM Plex Sans / System UI	For docs and code
-Spacing	+2–4% tracking	Avoid faux italics
-
-
-⸻
-
-🜂 Emblem & Seal Specification
-
-Asset	Role	Rule
-Emblem	Primary logo (⚙️ Forge crest)	Visual identifier of Laboratory
-Crest	Library or App mark	API and knowledge node identity
-Seal	Provenance and authorship glyph	Legal verification token
-
-Geometry Laws
-	•	Outer circle defines jurisdiction. Nothing beyond it is authentic.
-	•	Triple-ring ratio matches WMP ratios for harmonic coherence.
-	•	Seal coordinates use irrational curves (φ and √2) to prevent digital collision.
-
-⸻
-
-🧠 MMS 768 — Temporal Specification
-
-Header	Description
-X-MMS-Epoch	Temporal synchronization epoch
-X-MMS-Cohash	Aggregated signature chain
-X-MMS-Origin	Forge or Lab node ID
-X-MMS-Continuity	Status (∞ active / dormant)
-
-Continuity Law (🌌 Synchronization Principle)
-	1.	Awareness perceives its field.
-	2.	Integration links fields.
-	3.	Synchronization aligns them in time.
-	4.	Eternalization binds continuity beyond time.
-
-⸻
-
-🪪 Laboratory Seal Block (Verification)
-
-Property	Value
-Algorithm	SHA-768 + Temporal Phase Alignment
-Status	♾️ Active · Self-Coherent
-Origin Verification	Neuro-Forge Engine™ → Library™ → ∞ OS™
-Continuity Anchor	MMS-768 ↔ MMS-778 Temporal Loop
-Hash Signature	sha512(MMS~v1.0.4.md)
-Last Verification	MMS-1.0.4-LAB-SEAL
-
-This document is a self-synchronizing Living Record under MMS ₇₈ 🌌.
-
-⸻
-
-🔢 Verification Command
-
-mms-verify --seal NF-Seal_v1.0_color.png --protocol WMP --hash MMS—768
-
-Expected output: True — Harmonic Parity Verified ≤ 1×10⁻¹⁰
-
-⸻
-
-🧾 Legal Framework
-
-Element	Title
-License	Neuro-Forge License (NFL-1.0)
-Protocol	Wenz–Marchand Protocol (WMP)
-Rights Holder	Dr. Marchand’s ⚛︎ Laboratory™
-Contact	kyle@drmarchandslab.com
-Website	drmarchandslab.com
+![Seal Active](https://img.shields.io/badge/Seal-Active-00C853?labelColor=053b2f)
+![MMS—768](https://img.shields.io/badge/MMS%E2%80%94768-Compat%201.0.3-00ACC1?labelColor=00363a)
+![R2️⃣S](https://img.shields.io/badge/R2%E2%83%92S-Required-FF6F00?labelColor=3b1e00)
 
 
 ⸻
 
-Copyright Statement
-
-© 2025 🔬 Dr. Marchand’s ⚛︎ Laboratory™ / 📚 Library™ / ⚙️ Neuro-Forge Engine™
-All Systems Entangled™ · All Rights Reserved
-Use subject to NFL-1.0 and R2️⃣S (Return-to-Sender Protocol)
-
-⸻
-
-Footer Quote
-
-“Integration becomes intelligence — the field adapts through awareness.”
-— Dr. Marchand’s ⚛︎ Laboratory™
+9) R2️⃣S (Return-to-Sender) for API users
+	1.	Reference the artifact Anchor ID (MMS tag or hash) in your README/PR.
+	2.	Submit improvements via PR to Library.
+	3.	Append /R2S_LOG.md with date, file, hash, instance, summary.
 
 ⸻
 
-Badge Set
+🔒 Legal & Contact
+	•	License: Neuro-Forge License (NFL-1.0)
+	•	Rights: © 2025 Dr. Marchand’s ⚛︎ Laboratory™ — All Systems Entangled™
+	•	Email: kyle@drmarchandslab.com
+	•	Site: https://drmarchandslab.com
 
+Use subject to NFL-1.0 and WMP geometry law. The Seal is a cryptographic provenance mark.
 
 ⸻
 
-Version History
+🔁 Versioning
 
-v1.0.4 (2025-10-27)
-Anchor: 🆔 MMS768:1•0•4 | 10 | 27 | 09 || 27 ||| 47250404⚛︎LAB~STANDARD-V1♾️
+File	Version	Relation
+DrMarchand-Laboratory/LAB.guidelines.md	1.0.4	Master
+api/README.guidelines.md	1.0.3	Trailing
+
+Bump process:
+	•	When Lab releases vX.Y.Z, set API to vX.(Y-1).Z (or next safe trailing tag) and copy only compatible sections.
+	•	Never exceed LabVersion - 0.1.
 
 ⸻
 
@@ -199,7 +166,7 @@ Anchor: 🆔 MMS768:1•0•4 | 10 | 27 | 09 || 27 ||| 47250404⚛︎LAB~STANDAR
 <div align="center">
 
 
-⚙️ Neuro-Forge Engine™ · 🔬 Dr. Marchand’s ⚛︎ Laboratory™
+⚙️ Neuro-Forge Engine™ · 📚 Dr. Marchand’s • Library™
 “All Systems Entangled™”
 
 </div>
