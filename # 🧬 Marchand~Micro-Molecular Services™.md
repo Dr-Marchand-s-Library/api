@@ -1,5 +1,7 @@
-#🧬 Marchand~Micro-Molecular Services™  
-by ⚙️ Nuɛro-Forge Engine™
+#🧬 Marchand~Micro-Molecular Services™ ⚙️ Nuɛro-Forge Engine™
+by Kyle Marchand
+
+
 
 **Version:** 1.0.4 — 2025•10.25  
 **Anchor:** 🆔 MMS768:1•0•4|10|25|04||04|||47250404⚛︎LAB~STANDARD-V1♾️  
