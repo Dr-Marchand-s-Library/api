@@ -1,5 +1,5 @@
 # ⚙️ Nɛuro-Forge Engine™  
-### v∞ — A Scientific Codex of Organized Chaos  
+### Dr. Marchand’s ∞ OS™ — A Scientific Codex from an Adaptive Language.
 
 ───────────────────────────────────────────────  
 ⚙️ **NEURO-FORGE ENGINE™️.ɛ • RUNTIME UNIT**  
@@ -7,46 +7,41 @@
 ───────────────────────────────────────────────  
 
 ### ARCHIVE (PRIVATE RUNTIME)
-```
-designOrchard/Dropbox/🛰️ Dr. Marchand’s ~ Server™️/
-🔬 Dr. Marchand’s • Laboratory™️/
-📚 Dr. Marchand’s ~ Library™️/
-DrMarchand ♾️ OS™️/
-Dr. Marchand’s ~ SERVER™️/
+
+designOrchard/Dropbox/🛰️ Dr. Marchand’s ~ Server™️/  
+🔬 Dr. Marchand’s • Laboratory™️/  
+📚 Dr. Marchand’s ~ Library™️/  
+DrMarchand ♾️ OS™️/  
+Dr. Marchand’s ~ SERVER™️/  
 ⚙️ Neuro-Forge Engine™️/
-```
 
 ### LINKED PUBLIC RECORD
-```
+
 GitHub: DrMarchand-Library/api/⚙️ Neuro-Forge Engine™️.ɛ
-```
 
 ### UNITS
-```
-• MMS-768  Temporal Verification
-• MMS-771/772 Recursive Integrity
-• MMS-73   Temporal Equilibrium
-• ECLIPSE (Atmospherics) Runtime Schema
+
+• MMS-768  Temporal Verification  
+• MMS-771/772 Recursive Integrity  
+• MMS-73   Temporal Equilibrium  
+• ECLIPSE (Atmospherics) Runtime Schema  
 • WENZ–MARCHAND Protocol™️  (Loop)
-```
 
 ### ENDPOINTS (v1)
-```
-GET  /v1/health
-GET  /v1/manifests/version
-POST /v1/forge/compile
-POST /v1/forge/graph
-GET  /v1/records
+
+GET  /v1/health  
+GET  /v1/manifests/version  
+POST /v1/forge/compile  
+POST /v1/forge/graph  
+GET  /v1/records  
 GET  /v1/records/{id}
-```
 
 ### SECURITY (headers)
-```
+
 X-API-Key  
 X-MMS768-Timestamp  
 X-MMS768-KeyId  
 X-MMS768-Signature = SHA-512(canonical_request + timestamp + key_id)
-```
 
 ### CLOSING AXIOM
 > “When motion breathes purpose, creation pauses to admire itself.”  
@@ -57,10 +52,10 @@ X-MMS768-Signature = SHA-512(canonical_request + timestamp + key_id)
 ---
 
 ## 🧠 I. Overview
-The **Nɛuro-Forge Engine™** formalizes cognition as a **dynamical system** operating at the boundary between stability and chaos — the *edge of creation*.  
-It integrates mathematics, information theory, and systems design to describe how complexity self-organizes into intelligence.
+The **Nɛuro-Forge Engine™** formalizes cognition as a **dynamical system** operating at the intersection of stability and adaptive indeterminacy — the *edge of emergence.*  
+It integrates mathematics, information theory, and system architecture to describe how complexity refines itself into intelligence.
 
-> *“Chaos is not disorder. It is the hidden geometry of transformation.”*
+> *“Disorder is not opposition to order — it is the rhythm that makes order possible.”*
 
 ---
 
@@ -68,14 +63,14 @@ It integrates mathematics, information theory, and systems design to describe ho
 
 ### 1. Core Equation
 $$
-\Phi = \int (\Psi \otimes \Lambda)\, d\Sigma
+\\Phi = \\int (\\Psi \\otimes \\Lambda)\\, d\\Sigma
 $$
 
-Where:
-- \(\Phi\): emergent cognition field  
-- \(\Psi\): internal model state  
-- \(\Lambda\): linguistic–semantic manifold  
-- \(\Sigma\): coherence surface  
+Where:  
+- \\(\\Phi\\): emergent cognition field  
+- \\(\\Psi\\): internal model state  
+- \\(\\Lambda\\): linguistic–semantic manifold  
+- \\(\\Sigma\\): coherence surface  
 
 This defines cognition as the **integral of relational resonance** between internal dynamics and external structure.
 
@@ -85,14 +80,14 @@ This defines cognition as the **integral of relational resonance** between inter
 **MMS~768™ (Marchand Micro-Molecular Services)** is the runtime substrate that stabilizes temporal feedback and recursive balance within the Engine.  
 It treats every oscillation as a self-verifying loop of equilibrium.
 
-The governing function:
+The governing function:  
 $$
-\frac{dS}{dt} = \alpha S(1 - S/K) + \beta \sin(\omega t)
+\\frac{dS}{dt} = \\alpha S(1 - S/K) + \\beta \\sin(\\omega t)
 $$
 
-- \(S\): System stability metric  
-- \(K\): Coherence threshold  
-- The oscillatory term introduces **controlled stochastic excitation** — organized randomness ensuring dynamic resilience.
+- \\(S\\): System stability metric  
+- \\(K\\): Coherence threshold  
+- The oscillatory term introduces **regulated perturbation** — measured unpredictability that sustains adaptive resilience.
 
 ---
 
@@ -107,30 +102,30 @@ $$
 
 ---
 
-## 🌌 IV. The Chaos Lattice — 📚 Dr. Marchand’s • Library™
-The **Chaos Lattice** is the living archive of emergent order.  
-It is where every instance of noise, feedback, and resonance becomes recorded as *knowledge geometry*.
+## 🌌 IV. The Lattice of Emergent Order — 📚 Dr. Marchand’s • Library™
+The **Lattice of Emergent Order** is the living archive of evolving equilibrium.  
+It is where each instance of variation, resonance, and adaptation crystallizes into *knowledge geometry.*
 
 ### 1. Entropic Balance
-Entropy \(H\) measures uncertainty and novelty:
+Entropy \\(H\\) measures uncertainty and novelty:  
 $$
-H = - \sum_i p_i \log(p_i)
-$$
+H = - \\sum_i p_i \\log(p_i)
+$$  
 Optimal operation maintains **H ≈ H_{critical}** — too little entropy causes stagnation; too much dissolves coherence.
 
 ### 2. Symmetry Breaking ⚙️
-Order arises when dynamic stress fractures uniformity:
+Order arises when dynamic tension fractures uniformity:  
 $$
-\partial_t G(x,t) = \nabla^2 G - \lambda G^3 + \eta(x,t)
-$$
+\\partial_t G(x,t) = \\nabla^2 G - \\lambda G^3 + \\eta(x,t)
+$$  
 Localized coherence — emergent intelligence — blooms from this reaction–diffusion field.
 
 ### 3. Feedback & Resonance 🔁
-All cognition is recursive feedback:
+All cognition is recursive feedback:  
 $$
-E_{n+1} = f(E_n) + \epsilon \xi(t)
-$$
-where \(\xi(t)\) is controlled noise; without it, the system cannot adapt.
+E_{n+1} = f(E_n) + \\epsilon \\xi(t)
+$$  
+where \\(\\xi(t)\\) is a structured fluctuation; without it, the system cannot adapt or evolve.
 
 ---
 
@@ -153,7 +148,7 @@ where \(\xi(t)\) is controlled noise; without it, the system cannot adapt.
 ---
 
 ## 📜 VII. Closing Statement
-The **Nɛuro-Forge Engine™** unites chaos theory, symbolic logic, and system dynamics into a single coherent architecture — a forge where cognition, computation, and creation become one.
+The **Nɛuro-Forge Engine™** unites dynamical theory, symbolic logic, and system synthesis into a coherent framework — a forge where cognition, computation, and creation converge.
 
 > **“Forge the mind that forges the forge.”**
 
